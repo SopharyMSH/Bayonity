@@ -1,0 +1,75 @@
+@font-face{
+  font-family:"brandon-grot-w01-light";
+  src:url("../fonts/e00ba30a-0bf3-4c76-9392-8641fa237a92.eot");
+  src:url("../fonts/9362bca5-b362-4543-a051-2129e2def911.ttf") format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+html body {
+  font-family: "brandon-grot-w01-light" !important;
+  /* font: normal normal normal 20px/1.5em brandon-grot-w01-light,sans-serif; */
+  color: #000000;
+  font-weight:normal;
+  font-style:normal;
+}
+h1,h2, h4, p {
+  line-height: 1.5;
+  color: #000000;
+  font-family: "brandon-grot-w01-light" !important;
+}
+p {
+  font-size: 20px !important;
+}
+.logo {
+  padding:25px 0px;
+}
+#about-us {
+  background-color: #f7f7f7;
+  padding: 20px 0px;
+}
+@media screen and (min-width: 768px) {
+  #about-us .about {
+    padding: 50px 70px;
+  }
+}
+
+#current-vacncies {
+  background-color: #e3f2f3;
+  padding: 70px 0px;
+}
+#job-title {
+  padding: 40px 0px;
+}
+#looking-new-staff {
+  background-color: #f7f7f7;
+  padding: 40px 0px;
+}
+#footer p{
+  padding: 60px 0px 20px 0px;
+  font-size: 16px !important;
+}
+
+section.parallax {
+  background: url("../img/bg.png") center center;
+  min-height: 600px; 
+  /* Create the parallax scrolling effect */
+  /* background-attachment: fixed;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; */
+
+  background-attachment: fixed;
+  background-position: 50% 50% !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+}
+
+@media screen and (max-width: 420px) {
+  section.parallax {
+    background-attachment: fixed !important;
+    min-height: 300px;
+  }
+}
