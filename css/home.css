@@ -1,7 +1,9 @@
 @font-face{
   font-family:"brandon-grot-w01-light";
   src:url("../fonts/e00ba30a-0bf3-4c76-9392-8641fa237a92.eot");
+  src:url("../fonts/9362bca5-b362-4543-a051-2129e2def911.woff") format('woff');
   src:url("../fonts/9362bca5-b362-4543-a051-2129e2def911.ttf") format('truetype');
+ 
   font-weight: normal;
   font-style: normal;
 }
